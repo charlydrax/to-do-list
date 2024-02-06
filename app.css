@@ -1,0 +1,74 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#error{
+    background: rgb(241, 43, 43);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+    display: none;
+}
+input[type='submit']{
+    font-weight: bold;
+    margin-left: -6px;
+    border: 0px solid;
+}
+input[type='text']{
+    background: rgb(49, 49, 164);
+    width: 150px;
+    height: 30px;
+    border: 0px solid;
+}
+input[type='submit']{
+    background: rgb(50, 200, 197);
+    height: 30px;
+    width: 30px;
+    color: white;
+} 
+.delete{
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    width: 179px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background: rgb(242, 240, 240);
+}
+li:hover i:hover{ 
+    color : red
+}
+li:hover i{ 
+    color : gray;
+}
+li:hover{
+    transition: 0.2s;
+    background: rgb(195, 195, 195);
+
+}
+i{
+    color: rgb(242, 240, 240);
+
+}
+/* input:checked ~p{
+    color: red;
+} */
